@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+    background-color: rgb(228, 112, 29);
+    text-align: center;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    padding: 3rem 3rem;
+    justify-content: center;
+    color: white;
+
+}
+
+/* .follow__container, .infor__container {
+    padding: 3rem 2rem;
+} */
+.follow__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+}
